@@ -1,0 +1,111 @@
+body {
+  font-family: Noto Sans, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.search-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #333;
+}
+
+.search-header p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.search-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.search-container {
+  margin-top: 5rem;
+  width: 65%;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  border: 1px solid #4724d8;
+}
+
+.search-container:hover {
+  border: 2px solid #4724d8;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-input {
+  background-color: #f7f7f7;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  margin: 0;
+  flex: 1;
+}
+
+.keyword-input,
+.location-input {
+  flex: 2;
+}
+
+.location-input {
+  background: url(https://assets.jobstore.my/images/icon/icon_locpin_black.png)
+    no-repeat left center;
+  background-size: 1.5rem;
+  padding-left: 40px;
+  height: 40px;
+}
+
+.separator {
+  margin: 0 10px;
+  color: grey;
+  font-size: 20px;
+}
+
+.search-button {
+  background-color: #4724d8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #6644e6;
+}

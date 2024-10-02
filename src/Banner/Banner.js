@@ -1,10 +1,6 @@
-import "./styles.css";
+import "./Banner_styles.css";
 
 import React, { useState } from "react";
-import { useMediaQuery } from "react-responsive";
-import { DeviceSize } from "./mediaqueries";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
 // Import from 'swiper/modules' for version 11+
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "swiper/css";

@@ -1,0 +1,70 @@
+body {
+  font-family: Noto Sans, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.banner {
+  background: url(https://assets.jobstore.my/images/header/jobseeker_header_purple_bg.png)
+    #f7f7f7 no-repeat center / cover;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.congrats-text {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+}
+
+.recommendation-wrapper {
+  margin-left: 100px;
+}
+
+.recommendation-text {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.banner-btn {
+  background-color: #0704e1;
+  font-weight: 700;
+  color: white;
+  border: none;
+  margin-left: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.banner-btn:hover {
+  background-color: #0503c0;
+  transform: scale(1.05);
+}
+
+.banner-btn svg {
+  margin-left: 3px;
+  vertical-align: middle;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .banner {
+    height: auto;
+    padding: 10px;
+  }
+
+  .recommendation-wrapper {
+    margin-left: 0;
+    text-align: center;
+  }
+}

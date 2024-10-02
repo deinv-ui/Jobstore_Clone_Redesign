@@ -620,7 +620,7 @@ a {
 
   .mobile-menu {
     display: flex;
-    flex-direction: ;
+    /* flex-direction: ; */
     width: 100%;
   }
   .navbar-right {

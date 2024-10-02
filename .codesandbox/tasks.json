@@ -2,20 +2,20 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "command": "npm install",
-      "name": "Install Dependencies"
+      "name": "Install Dependencies",
+      "command": "npm install"
     },
     {
-      "command": "npm install swiper",
-      "name": "npm install swiper"
+      "name": "npm install swiper",
+      "command": "npm install swiper"
     },
     {
-      "command": "npm install react-scripts",
-      "name": "npm install swiper"
+      "name": "npm install swiper",
+      "command": "npm install react-scripts"
     },
     {
-      "command": "npm install react-dom",
-      "name": "npm install swiper"
+      "name": "npm install swiper",
+      "command": "npm install react-dom"
     }
   ],
 
@@ -24,22 +24,22 @@
     "start": {
       "name": "start",
       "command": "yarn start",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "eject": {
       "name": "eject",
-      "command": "yarn eject",
-      "runAtStart": false
+      "command": "yarn eject"
     }
   }
 }
